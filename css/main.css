@@ -72,8 +72,132 @@ ul :first-child{
 }
 
 }
+.hero{
+    display: flex;
+    align-items: start;
+    gap: 60px;
+}
+.hero .container{
+    display: flex;
+    flex-direction: column;
+    gap:25px;
+}
+.hero-text{
+    flex: 1;
+}
+.tag{
+    
+    display:inline-block;
+    background-color: #D3C3C099;
+    border-radius: 12px;
+    border: 1px solid #D3C3C099;
+    padding: 6px 14px;
+    color:#845326;
+    margin-right: auto;
+}
+.text-section h1{
+  
+    color:#0E0402;
+    font-size: 64px;
+    font-weight: 600;
+    font-family: "Playfair Display", sans-serif;
+}
+.text-section p{
+    font-size:19 px;
+    color:#4F4442;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 400;
+    line-height: 30px;
+}
 
-
+.hero-button  {
+    display: flex;
+    gap: 16px;
+    
+}
+.hero-button .first-child{
+    padding:14px 28px;
+    color: white;
+    background-color:#2B1B17;
+    border-radius: 5px;
+    font-weight: 600;
+    transition: all 0.3s ease-in-out;
+}
+.hero-button .first-child:hover{
+    background-color:#b8926f;
+}
+.hero-button .second-child{
+    padding:14px 28px;
+    border: 1px solid #000000;
+    background-color: #f0eceb;
+    border-radius: 5px;
+    font-weight: 600;
+    transition: all 0.3s ease-in-out;
+}
+.hero-button .second-child:hover{
+    background-color:#b8926f;
+}
+.numbers{
+    display: flex;
+    margin-top: 40px;
+    border-top: 1px solid #fbdfdb99;
+}
+.number{
+    
+    padding: 0 25px ;
+    border-left:1px solid #87808099;
+}
+.number:first-child{
+    border-right: none;
+}
+.number strong{
+    display: block;
+    font-size: 22px;
+}
+.photo-section{
+    flex: 1;
+    position: relative;
+    max-width: 520px;
+    margin-left: auto; 
+}
+.photo-bg{
+    position: absolute;
+    inset: -12px;
+    background-color: #F0E7DD;
+    border-radius: 20px;
+    transform: rotate(-3deg);
+}
+.photo-card{
+    position: relative;
+    background-color:white;
+    padding:8px;
+    border-radius: 18px;
+    box-shadow: 0px 2px 2px rgba(211, 203, 203, 0.2);
+    width: 100%;
+}
+.photo{
+    display: block;
+    width: 100%;
+    height: 460px;
+    object-fit: cover;
+    border-radius: 14px;
+}
+.badge{
+    position: absolute;
+    left: 24px;
+    bottom: 24px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 14px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12);
+}
+.badge-text{
+    display: flex;
+    flex-direction: column;
+}
 
 
 
