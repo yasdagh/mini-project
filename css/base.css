@@ -1,0 +1,11 @@
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  background-color:#FFF8F3E5;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+ul{
+  list-style-type:none;
+}
