@@ -36,7 +36,7 @@ ul :first-child{
     font-weight: 600;
     color:#845326
 }
-.container button{
+.container .btn{
     padding: 10px 24px;
     background-color:#2B1B17;
     color: #FFF8F3E5;
@@ -48,5 +48,50 @@ ul :first-child{
 .container button:hover{
     background-color:#b8926f;
 }
+.button{
+    display: flex;
+    gap: 15px;
+}
+
+.menu{
+    display: none;
+
+}
+
+@media screen and (max-width: 768px) {
+    ul, .logo img{
+        display: none;
+    }
+
+    .container p {
+        font-size: 20px;
+    }
+.menu{
+    display: block;
+    border:none
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
