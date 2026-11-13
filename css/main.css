@@ -73,6 +73,8 @@ ul :first-child{
 
 }
 .hero{
+    margin-left: 48px;
+    margin-right: 48px;
     display: flex;
     align-items: start;
     gap: 60px;
@@ -230,6 +232,187 @@ ul :first-child{
         height: 320px;
     }
 }
+
+
+.Customer-Favorites .container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 8px;
+}
+.container span{
+    color:#845326;
+    font-size: 12px;
+    font-weight: 600;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+.container h2{
+    color:#0E0402;
+    font-size: 40px;
+    font-weight: 600;
+    font-family: "Playfair Display", sans-serif;
+}
+.container p{
+    color:#4F4442;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+.cards{
+    margin-left: 48px;
+    margin-right: 48px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:33px;
+    margin-top: 64px;
+    transition: 0.3s ease-in-out;
+    
+}
+.card{
+    background-color: white;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    border-radius: 8px;
+    padding: 20px;
+
+}
+.cards :hover{
+    transform: scale(1.05);
+}
+
+
+.card-image {
+    position: relative;
+    width: 100%;
+}
+
+.card-image img {
+
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.card-image .badge{
+    position:absolute;
+    padding: 4px 12px;
+    top: 4px;
+    left: 12px;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 12px;
+    background-color: #FFF8F3E5;
+    z-index: 2;
+    margin-top:16px;
+    font-size: 16px;
+    font-family: Plus Jakarta Sans;
+    transition: 0.3s ease-in-out;
+
+}
+.badge:hover{
+    transform: scale(1.05); 
+}
+
+
+
+.card-image .price{
+    background-color: #2B1B17;
+    position: absolute;
+    z-index: 5;
+    right:4px;
+    bottom: 12px;
+    padding: 4px 12px;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 4px;
+    color:white;
+    font-size: 16px;
+    font-weight: 600;
+    transition: 0.3s ease-in-out;
+}
+.price:hover{
+    transform: scale(1.05); 
+}
+.card h4 {
+    font-family: Playfair Display;
+    font-size: 20px;
+    font-weight: 600;
+    color: #0E0402;
+    margin-top: 24px;
+    background-color: white;
+}
+.card p{
+    color: #4F4442;
+    font-family: Plus Jakarta Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22.4px;
+    margin-top: 8px;
+    vertical-align: middle;
+    letter-spacing: 0.14px;
+    background-color: white;
+}
+.roast-info{
+    display: flex;
+    margin-top: 25px;
+    justify-content: space-between;
+    color: #4F4442;
+    font-size: 12px;
+    background-color: white;
+    font-family: Plus Jakarta Sans;
+}
+.progress{
+    background-color: #F6ECE2;
+    width: 100%;
+    height:6px ;
+    overflow: hidden;
+}
+.progress .Medium{
+    display: block;
+    width: 75%;
+    height: 6px;
+    background-color: #845326;
+    border-radius: 12px;
+}
+.progress .Balanced {
+    display: block;
+    width: 50%;
+    height: 6px;
+    background-color: #845326;
+    border-radius: 12px;
+}
+.progress .Bold{
+    display: block;
+    width: 80%;
+    height: 6px;
+    background-color: #845326;
+    border-radius: 12px;
+}
+.order-btn{
+    width: 100%;
+    height: 40px;
+    border-radius: 4px;
+    background-color: #F0E7DD;
+    padding: 10px 16px;
+    border: none;
+    margin: auto;
+    margin-top: 16px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: Plus Jakarta Sans;
+    color: #0E0402;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
