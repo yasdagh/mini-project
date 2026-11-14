@@ -252,7 +252,7 @@ ul :first-child{
     font-weight: 600;
     font-family: "Playfair Display", sans-serif;
 }
-.container p{
+.container .origin-p{
     color:#4F4442;
     font-size: 16px;
     font-weight: 400;
@@ -401,6 +401,60 @@ ul :first-child{
     font-weight: bold;
     font-family: Plus Jakarta Sans;
     color: #0E0402;
+}
+.p-mediaquary{
+    display: none;
+}
+@media (max-width: 800px) {
+    .origin-p {
+        display: none;
+    }
+    .p-mediaquary {
+        display: block;
+        color: #4F4442;
+    }
+
+    .cards {
+        grid-template-columns: 1fr;
+        gap: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .card-image {
+        aspect-ratio: 4 / 3.4;
+    }
+
+    .card-image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .card .price {
+        top: 12px;
+        right: 12px;
+        bottom: auto;
+    }
+    .roast-profile{
+        display: none;
+    }
+    .progress{
+        display: none;
+    }
+    .badge{
+        display: none;
+
+    }
+
+    .card {
+        padding: 16px;
+    }
+
+    .order-btn {
+        width: 100%;
+    }
+
 }
 
 
