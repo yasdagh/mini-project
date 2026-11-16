@@ -457,6 +457,233 @@ ul :first-child{
 
 }
 
+.coffee{
+    margin: 0 48px;
+    
+    align-items: center;
+    gap: 60px;
+    
+}
+.coffee .container{
+    display: flex;
+    flex-direction: row;
+    margin-top: 111px;
+    gap:20px;
+    width: 100%;
+    height: auto;
+    align-items: flex-start;
+
+}
+
+
+.coffee-text{
+   
+
+    align-items: center;
+    flex: 1;
+    min-width: 0;
+    
+}
+.coffee-text span{
+background-color: #F6ECE2;
+border-radius: 12px;
+font-family:Plus Jakarta Sans ;
+font-weight: 600;
+font-size:12px ;
+color: #845326;
+padding: 6px 14px;
+margin-top: 111px;
+margin-bottom: 15px;
+}
+.coffee-text h2{
+    
+
+font-family:Playfair Display;
+font-weight: 600;
+font-size:40px;
+color: #0E0402;
+
+}
+.coffee-text p{
+font-family:Plus Jakarta Sans;
+font-weight: 400;
+font-size:16px;
+color: #4F4442;
+line-height: 26px;
+
+}
+.coffee-list ul{
+    line-height: 26px;
+    display: flex;
+    flex-direction: column;
+    
+    gap: 16px;
+}
+.coffee-list ul li{
+  display: flex;  
+  flex-direction: row;
+  border: none;
+}
+.coffee-list ul li h4{
+     border: none;
+}
+.coffee-list ul li img{
+   margin-right: 16px;
+   border: none;
+}
+.coffee-text button{
+    background-color: #2B1B17;
+    color: white;
+    padding: 12px 28px;
+   border-radius: 8px;
+   font-family: Plus Jakarta Sans;
+   font-size:14px ;
+   font-weight:600 ;
+   margin-top: 40px;
+}
+
+.coffee-photo {
+    flex: 0 0 42%;
+    max-width: 42%;
+    position: relative;
+}
+.coffee-photo-card img{
+    
+    object-fit: cover;
+    height: auto;
+    display: block;
+   }
+ .coffee-photo .badge-text{
+    position: absolute;
+    width: fit-content;
+    height:fit-content ;
+    background-color: #2B1B17;
+    color: #FFDCC2;
+    border-radius: 8px;
+    padding: 16px 24px;
+   bottom: -16px;
+   right: -24px;
+    z-index: 2;
+    transition: all;
+   }
+   .coffee-photo .badge-text:hover{
+     transform: scale(1.05); 
+   }
+   .coffee-photo .badge-text strong{
+     background-color: #2B1B17;
+     font-family: Playfair Display;
+   }
+   .coffee-photo .badge-text span{
+
+     background-color: #2B1B17;
+     font-family: Plus Jakarta Sans;
+     color: #D3C3C0;
+   }
+
+  .coffee-photo-card {
+    position: relative;
+    width: fit-content;
+    max-width: 100%;
+    padding: 8px;
+    background-color: white;
+    border-radius: 16px;
+    transition: all;
+}
+.coffee-photo-card:hover{
+     transform: scale(1.05); 
+
+}
+
+@media (max-width: 820px) {
+
+    .coffee {
+        margin: 0 20px;
+    }
+    .coffee .container {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 24px;
+        margin-top: 32px;
+    }
+    .coffee-photo {
+        flex: none;
+        width: 100%;
+        max-width: 100%;
+    }
+    .coffee-photo-card {
+        position: relative;
+        width: 100%;
+        max-width: 100%;
+        padding: 0;
+        background: none;
+        overflow: hidden;
+        border-radius: 16px;
+    }
+    .coffee-photo-card img {
+        display: block;
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        border-radius: 16px;
+    }
+    .coffee-photo .badge-text {
+        top: 12px;
+        left: 12px;
+        bottom: auto;
+        right: auto;
+        padding: 6px 12px;
+        border-radius: 999px;
+    }
+    .coffee-photo .badge-text span {
+        display: none;
+    }
+    .coffee-text {
+        margin-top: 0;
+        width: 100%;
+        flex: none;
+    }
+    .coffee-text span {
+        background: none;
+        padding: 0;
+        letter-spacing: 1px;
+    }
+    .coffee-text span::before {
+        content: "";
+        display: inline-block;
+        width: 24px;
+        height: 1px;
+        background: #845326;
+        margin-right: 8px;
+        vertical-align: middle;
+    }
+    .coffee-text h2 {
+        font-size: 28px;
+    }
+    .coffee-list ul {
+        padding: 0;
+        list-style: none;
+        gap: 12px;
+    }
+    .coffee-list ul li {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        background-color: #F9F1EA;
+        padding: 16px;
+        border-radius: 12px;
+    }
+    .coffee-list ul li img {
+        flex-shrink: 0;
+    }
+    .coffee-text button {
+        width: 100%;
+        margin-top: 24px;
+        background-color: #F1E9E1;
+        color: #2B1B17;
+    }
+}
+
+
 
 
 
